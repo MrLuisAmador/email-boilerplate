@@ -13,8 +13,6 @@ If you check out your inlined html you'll notice that there are ``<style>`` tags
 
 Images are kept in in a global **img** folder. That'll be easier for testing purposes, since most images get uploaded to separate email hosting, anyways.
 
-There is a **frameworks** directory including some sample frameworks (for now).
-
 ## Installation
 
 You'll need Gulp installed globally:
@@ -23,12 +21,16 @@ You'll need Gulp installed globally:
 $ npm i -g gulp
 ```
 
-Clone and install dependencies
+Install dependencies
 
 ```sh
-$ git clone ssh://gitolite3@git.atlanticbt.com:ABT-Emails/Boilerplate
 $ cd boilerplate
 $ npm install
+```
+
+Use gulp to compile sass for building locally
+```sh
+$ gulp watch
 ```
 
 Code your email
