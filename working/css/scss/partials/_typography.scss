@@ -1,0 +1,84 @@
+//==================================================================
+// Typography Partial
+// Styles for overall typography and misc. content components.
+// (c) Atlantic BT. All Rights Reserved.
+//==================================================================
+
+// Note: If we are using custom fonts we'll need to include appropriate fallbacks, as only ~1/2 of email clients support them.
+// Ref: https://www.campaignmonitor.com/blog/post/3897/using-web-fonts-in-email
+
+body, table.body, table[class="body"] {
+	font-family: $base-font-family;
+	font-size: $base-font-size;
+	line-height: $base-line-height;
+	color: $base-font-color;
+	@include mobile {
+		font-size: 20px !important;
+	}
+}
+
+.preheader {
+	font-family: Helvetica, Arial, sans-serif;;
+	font-size: 12px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $heading-font-family;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+h1 {
+	font-size: 30px;
+	letter-spacing: 4px;
+	color: $dark-gray;
+}
+
+h2 {
+	font-size: 18px;
+	color: $taupe;
+}
+
+h3 {
+	font-size: 16px;
+	color: $orange;
+}
+
+.heading-separator {
+	border-top: $base-border;
+	border-bottom: $base-border;
+}
+
+p {
+	font-family: $base-font-family;
+	line-height: $base-line-height;
+	font-size: $base-font-size;
+	text-align: center;
+	&.text-left {
+		text-align: left;
+	}
+}
+
+a {
+	color: $action-color;
+}
+
+sup {
+	font-size: 14px;
+}
+
+.info, .info .copyright {
+	font-family: Helvetica, Arial, sans-serif;
+	color: $med-gray;
+	font-size: 12px;
+	a {
+		color: $med-gray;
+	}
+}
+
+.unsubscribe-links {
+	width: 100%;
+	text-align: center;
+}

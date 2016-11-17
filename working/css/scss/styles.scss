@@ -1,0 +1,18 @@
+//==================================================================
+// Imports
+// Import styles for Custom Email CSS
+//==================================================================
+
+  // Custom styles
+  // -------------------------------------------------------------
+  // Important Stuff First
+  @import "partials/variables";
+  @import "partials/functions";
+
+  // Then, Resets for Email Clients
+  @import "partials/client-specific";
+  
+  // Then our custom styles
+  @import "partials/layout";
+  @import "partials/typography";
+  @import "partials/buttons";

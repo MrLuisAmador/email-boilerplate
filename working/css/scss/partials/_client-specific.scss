@@ -1,0 +1,117 @@
+//==================================================================
+// Client-Specific Partial
+// Client-specific Styles and Reset
+// (c) Atlantic BT. All Rights Reserved.
+//==================================================================
+
+#outlook a {
+  padding:0;
+}
+
+body{
+  width:100% !important;
+  min-width: 100%;
+  -webkit-text-size-adjust:100%;
+  -ms-text-size-adjust:100%;
+  margin:0;
+  padding:0;
+}
+
+// Overrides for Yahoo
+
+.yshortcuts {
+  color: $base-font-color;
+}
+
+.yshortcuts a span  {
+  color: $action-color;
+}
+
+ /* .ExternalClass applies to Outlook.com (the artist formerly known as Hotmail)  */
+
+.ExternalClass {
+  width:100%;
+}
+
+.ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+  line-height: 100%;
+}
+
+#backgroundTable {
+  margin:0;
+  padding:0;
+  width:100% !important;
+  line-height: 100% !important;
+}
+
+img {
+  outline:none;
+  text-decoration:none;
+  -ms-interpolation-mode: bicubic;
+  width: auto;
+  max-width: 100%;
+  float: left;
+  clear: both;
+  display: block;
+}
+
+center {
+  width: 100%;
+  min-width: 700px;
+}
+
+.center {
+  table-layout: fixed;
+}
+
+a img {
+  border: none;
+}
+
+p {
+  margin: 0 0 0 10px;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+td {
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  border-collapse: collapse !important;
+}
+
+table, tr, td {
+  padding: 0;
+  vertical-align: top;
+  text-align: left;
+}
+
+@include mobile {
+	table[class="body"] img {
+		width: auto !important;
+		height: auto !important;
+	}
+
+	table[class="body"] center {
+		min-width: 0 !important;
+	}
+	table[class="body"] .hide-for-small,
+	table[class="body"] .show-for-desktop {
+		display: none !important;
+	}
+
+	table[class="body"] .show-for-small,
+	table[class="body"] .hide-for-desktop {
+		display: inherit !important;
+	}
+}

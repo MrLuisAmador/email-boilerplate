@@ -1,0 +1,182 @@
+#outlook a {
+  padding: 0; }
+
+body {
+  width: 100% !important;
+  min-width: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  margin: 0;
+  padding: 0; }
+
+.yshortcuts {
+  color: #333; }
+
+.yshortcuts a span {
+  color: #477a99; }
+
+/* .ExternalClass applies to Outlook.com (the artist formerly known as Hotmail)  */
+.ExternalClass {
+  width: 100%; }
+
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+  line-height: 100%; }
+
+#backgroundTable {
+  margin: 0;
+  padding: 0;
+  width: 100% !important;
+  line-height: 100% !important; }
+
+img {
+  outline: none;
+  text-decoration: none;
+  -ms-interpolation-mode: bicubic;
+  width: auto;
+  max-width: 100%;
+  float: left;
+  clear: both;
+  display: block; }
+
+center {
+  width: 100%;
+  min-width: 700px; }
+
+.center {
+  table-layout: fixed; }
+
+a img {
+  border: none; }
+
+p {
+  margin: 0 0 0 10px; }
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse; }
+
+td {
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  border-collapse: collapse !important; }
+
+table, tr, td {
+  padding: 0;
+  vertical-align: top;
+  text-align: left; }
+
+@media only screen and (max-width: 700px) {
+  table[class="body"] img {
+    width: auto !important;
+    height: auto !important; }
+  table[class="body"] center {
+    min-width: 0 !important; }
+  table[class="body"] .hide-for-small, table[class="body"] .show-for-desktop {
+    display: none !important; }
+  table[class="body"] .show-for-small, table[class="body"] .hide-for-desktop {
+    display: inherit !important; } }
+
+body, table.body, table[class="body"] {
+  width: 100%;
+  background-color: #ededed; }
+
+.container {
+  display: block;
+  margin: 0 auto;
+  width: 700px; }
+  @media only screen and (max-width: 700px) {
+    .container {
+      width: 100% !important; } }
+
+.content {
+  background-color: #fff; }
+
+.content, .footer, .info {
+  width: 700px; }
+  @media only screen and (max-width: 700px) {
+    .content, .footer, .info {
+      width: 100% !important; } }
+
+.footer {
+  background-color: #fff;
+  margin-top: 20px; }
+  .footer .social {
+    float: right !important; }
+
+.heading-separator {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px; }
+
+.text-padding {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px; }
+
+.info {
+  padding-top: 40px;
+  padding-bottom: 20px; }
+
+body, table.body, table[class="body"] {
+  font-family: Georgia, serif;
+  font-size: 16px;
+  line-height: 2;
+  color: #333; }
+  @media only screen and (max-width: 700px) {
+    body, table.body, table[class="body"] {
+      font-size: 20px !important; } }
+
+.preheader {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px; }
+
+h1 {
+  font-size: 30px;
+  letter-spacing: 4px;
+  color: #393939; }
+
+h2 {
+  font-size: 18px;
+  color: #ada48d; }
+
+h3 {
+  font-size: 16px;
+  color: #e07f00; }
+
+.heading-separator {
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #ededed; }
+
+p {
+  font-family: Georgia, serif;
+  line-height: 2;
+  font-size: 16px;
+  text-align: center; }
+  p.text-left {
+    text-align: left; }
+
+a {
+  color: #477a99; }
+
+sup {
+  font-size: 14px; }
+
+.info, .info .copyright {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #777777;
+  font-size: 12px; }
+  .info a, .info .copyright a {
+    color: #777777; }
+
+.unsubscribe-links {
+  width: 100%;
+  text-align: center; }

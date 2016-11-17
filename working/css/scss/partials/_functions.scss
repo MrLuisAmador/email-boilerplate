@@ -1,0 +1,11 @@
+//==================================================================
+// Functions and Mixins
+// Custom Sass mixins for the project.
+// (c) Atlantic BT. All Rights Reserved.
+//==================================================================/
+
+@mixin mobile {
+  @media only screen and (max-width: #{$mobile}) {
+    @content;
+  }
+}
