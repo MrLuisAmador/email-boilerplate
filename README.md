@@ -13,12 +13,27 @@ If you check out your inlined html you'll notice that there are ``<style>`` tags
 
 Images are kept in in a global **img** folder. That'll be easier for testing purposes, since most images get uploaded to separate email hosting, anyways.
 
+## Node Version v8.0.0
+
+In order for this project to run, install [nvm](https://github.com/nvm-sh/nvm) to use the correct Node verson for this project to run correctly.
+
+Once nvm is installed, source the .nvmrc file to switch to the correct Node version
+
+```sh
+$ nvm use
+```
+
 ## Installation
 
 You'll need Gulp installed globally:
 
 ```sh
 $ npm i -g gulp
+```
+If you don't want to install gulp globally, you can run npm build scripts
+
+```sh
+$ npm run <script-name>
 ```
 
 Install dependencies
@@ -28,16 +43,26 @@ $ cd boilerplate
 $ npm install
 ```
 
-Use gulp to compile sass for building locally
+Use the global Gulp to compile sass for building locally
 ```sh
 $ gulp watch
+```
+Or run the build script
+
+```sh
+$ npm run watch
 ```
 
 Code your email
 
-Run Gulp to inline your css
+Run global Gulp to inline your css
 ```sh
 $ gulp
+```
+Or run the build script
+
+```sh
+$ npm run inline
 ```
 
 ## To Do's
